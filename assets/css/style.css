@@ -66,7 +66,7 @@ p {
 
 /* add space around nav and put on right side of header */
 /* use Gill Sans font family and slightly smaller text for nav links */
-/* changed div to nav */
+/* CHANGED div to nav */
 .header nav {
     padding-top: 15px;
     margin-right: 20px;
@@ -76,13 +76,13 @@ p {
 }
 
 /* remove bullets from nav list items */
-/* changed div to nav */
+/* CHANGED div to nav */
 .header nav ul {
     list-style-type: none;
 }
 
 /* display nav links on one line */
-/* changed div to nav */
+/* CHANGED div to nav */
 .header nav ul li {
     display: inline-block;
     margin-left: 25px;
@@ -161,12 +161,13 @@ body {
 /*** 6.0 Aside ***/
 /*****************/
 
+/* CHANGED selector from .benefits to .aside */
 /* add padding and right margin around aside */
 /* prevent floating elements on right or left of aside */
 /* make aside take up 20% of page width and 100% of page height */
 /* set font family to Gill Sans */
 /* set background color to dark blue */
-.benefits {
+.aside {
     margin-right: 20px;
     padding: 20px;
     clear: both;
@@ -177,73 +178,23 @@ body {
     background-color: #2589bd;
 }
 
-/* ---------------------------- */
-
-/* CONSOLIDATE */
+/* CONSOLIDATED style: .aside-section */
 /* add margin below section and set font color to white */
-.benefit-lead {
+.aside-section {
     margin-bottom: 32px;
     color: #ffffff;
 }
 
-/* CONSOLIDATE */
-/* add margin below section and set font color to white */
-.benefit-brand {
-    margin-bottom: 32px;
-    color: #ffffff;
-}
-
-/* CONSOLIDATE */
-/* add margin below section and set font color to white */
-.benefit-cost {
-    margin-bottom: 32px;
-    color: #ffffff;
-}
-
-/* ---------------------------- */
-
-/* CONSOLIDATE */
+/* CONSOLIDATED STYLE: .aside-section h3 */
 /* add margin below section heading and center heading text */
-.benefit-lead h3 {
+.aside-section h3 {
     margin-bottom: 10px;
     text-align: center;
 }
 
-/* CONSOLIDATE */
-/* add margin below section heading and center heading text */
-.benefit-brand h3 {
-    margin-bottom: 10px;
-    text-align: center;
-}
-
-/* CONSOLIDATE */
-/* add margin below section heading and center heading text */
-.benefit-cost h3 {
-    margin-bottom: 10px;
-    text-align: center;
-}
-
-/* ---------------------------- */
-
-/* CONSOLIDATE */
+/* CONSOLIDATED STYLE: .aside-section img */
 /* set img to display block, add margin, and set max-width to 150px */
-.benefit-lead img {
-    display: block;
-    margin: 10px auto;
-    max-width: 150px;
-}
-
-/* CONSOLIDATE */
-/* set img to display block, add margin, and set max-width to 150px */
-.benefit-brand img {
-    display: block;
-    margin: 10px auto;
-    max-width: 150px;
-}
-
-/* CONSOLIDATE */
-/* set img to display block, add margin, and set max-width to 150px */
-.benefit-cost img {
+.aside-section img {
     display: block;
     margin: 10px auto;
     max-width: 150px;
