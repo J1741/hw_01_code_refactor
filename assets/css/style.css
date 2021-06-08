@@ -1,13 +1,49 @@
+/*********************
+Table of Contents
+
+* 1.0 Reset (cmtd)
+* 2.0 Globals (cmtd)
+* 3.0 Header (cmtd)
+* 4.0 Hero (cmtd)
+* 5.0 Body (cmtd)
+* 6.0 Aside
+* 7.0 Footer
+********************/
+
+/*****************/
+/*** 1.0 Reset ***/
+/*****************/
+
+/* include padding and content when calculating element width and height */
+/* set padding and margins to zero */
 * {
     box-sizing: border-box;
     padding: 0;
     margin: 0;
 }
 
-body {
-    background-color: #d9dcd6;
+/*******************/
+/*** 2.0 Globals ***/
+/*******************/
+
+/* style anchors as plain white text */
+a {
+    color: #ffffff;
+    text-decoration: none;
 }
 
+/* set paragraph element font size to 16px */
+p {
+    font-size: 16px;
+}
+
+/******************/
+/*** 3.0 Header ***/
+/******************/
+
+/* add space around header */
+/* set header font family to Trebuchet MS */
+/* set header text to white and header background to blue */
 .header {
     padding: 20px;
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
@@ -15,15 +51,20 @@ body {
     color: #ffffff;
 }
 
+/* put company name on the same line as nav */
+/* give company name a large font */
 .header h1 {
     display: inline-block;
     font-size: 48px;
 }
 
+/* use slightly different font color for letters "seo" in "Horiseon" */
 .header h1 .seo {
     color: #d9dcd6;
 }
 
+/* add space around nav and put on right side of header */
+/* use Gill Sans font family and slightly smaller text for nav links */
 /* changed div to nav */
 .header nav {
     padding-top: 15px;
@@ -33,26 +74,23 @@ body {
     font-size: 20px;
 }
 
+/* remove bullets from nav list items */
 /* changed div to nav */
 .header nav ul {
     list-style-type: none;
 }
 
+/* display nav links on one line */
 /* changed div to nav */
 .header nav ul li {
     display: inline-block;
     margin-left: 25px;
 }
+/****************/
+/*** 4.0 Hero ***/
+/****************/
 
-a {
-    color: #ffffff;
-    text-decoration: none;
-}
-
-p {
-    font-size: 16px;
-}
-
+/* style background image as hero image */
 .hero {
     height: 800px;
     width: 100%;
@@ -62,22 +100,113 @@ p {
     background-position: center;
 }
 
+/****************/
+/*** 5.0 Body ***/
+/****************/
+
+/* set light-colored background for page */
+body {
+    background-color: #d9dcd6;
+}
+
+/* put seo and social media marketing images on left of figures */
 .float-left {
     float: left;
     margin-right: 25px;
 }
 
+/* put reputation management image on right side of figure */
 .float-right {
     float: right;
     margin-left: 25px;
 }
 
+/* make main section take up 75% of page width */
+/* add left margin around main */
 .content {
     width: 75%;
     display: inline-block;
     margin-left: 20px;
 }
 
+/* add space around section */
+/* set section font family to Gill Sans */
+/* set section background color to dark blue and text to white*/
+.search-engine-optimization {
+    margin-bottom: 20px;
+    padding: 50px;
+    height: 300px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    background-color: #0072bb;
+    color: #ffffff;
+}
+
+/* add space around section*/
+/* set section font family to Gill Sans */
+/* set section background color to dark blue and text to white*/
+.online-reputation-management {
+    margin-bottom: 20px;
+    padding: 50px;
+    height: 300px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    background-color: #0072bb;
+    color: #ffffff;
+}
+
+/* add space around section*/
+/* set section font family to Gill Sans */
+/* set section background color to dark blue and text to white*/
+.social-media-marketing {
+    margin-bottom: 20px;
+    padding: 50px;
+    height: 300px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    background-color: #0072bb;
+    color: #ffffff;
+}
+
+/* set max height on image to 200px */
+.search-engine-optimization img {
+    max-height: 200px;
+}
+
+/* set max height on image to 200px */
+.online-reputation-management img {
+    max-height: 200px;
+}
+
+/* set max height on image to 200px */
+.social-media-marketing img {
+    max-height: 200px;
+}
+
+/* add margin below section heading and set font size to 36px */
+.search-engine-optimization h2 {
+    margin-bottom: 20px;
+    font-size: 36px;
+}
+
+/* add margin below section heading and set font size to 36px */
+.online-reputation-management h2 {
+    margin-bottom: 20px;
+    font-size: 36px;
+}
+
+/* add margin below section heading and set font size to 36px */
+.social-media-marketing h2 {
+    margin-bottom: 20px;
+    font-size: 36px;
+}
+
+/*****************/
+/*** 6.0 Aside ***/
+/*****************/
+
+/* add padding and right margin around aside */
+/* prevent floating elements on right or left of aside */
+/* make aside take up 20% of page width and 100% of page height */
+/* set font family to Gill Sans */
+/* set background color to dark blue */
 .benefits {
     margin-right: 20px;
     padding: 20px;
@@ -89,108 +218,70 @@ p {
     background-color: #2589bd;
 }
 
+/* add margin below section and set font color to white */
 .benefit-lead {
     margin-bottom: 32px;
     color: #ffffff;
 }
 
+/* add margin below section and set font color to white */
 .benefit-brand {
     margin-bottom: 32px;
     color: #ffffff;
 }
 
+/* add margin below section and set font color to white */
 .benefit-cost {
     margin-bottom: 32px;
     color: #ffffff;
 }
 
+/* add margin below section heading and center heading text */
 .benefit-lead h3 {
     margin-bottom: 10px;
     text-align: center;
 }
 
+/* add margin below section heading and center heading text */
 .benefit-brand h3 {
     margin-bottom: 10px;
     text-align: center;
 }
 
+/* add margin below section heading and center heading text */
 .benefit-cost h3 {
     margin-bottom: 10px;
     text-align: center;
 }
 
+/* set img to display block, add margin, and set max-width to 150px */
 .benefit-lead img {
     display: block;
     margin: 10px auto;
     max-width: 150px;
 }
 
+/* set img to display block, add margin, and set max-width to 150px */
 .benefit-brand img {
     display: block;
     margin: 10px auto;
     max-width: 150px;
 }
 
+/* set img to display block, add margin, and set max-width to 150px */
 .benefit-cost img {
     display: block;
     margin: 10px auto;
     max-width: 150px;
 }
 
-.search-engine-optimization {
-    margin-bottom: 20px;
-    padding: 50px;
-    height: 300px;
-    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
-    background-color: #0072bb;
-    color: #ffffff;
-}
+/******************/
+/*** 7.0 Footer ***/
+/******************/
 
-.online-reputation-management {
-    margin-bottom: 20px;
-    padding: 50px;
-    height: 300px;
-    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
-    background-color: #0072bb;
-    color: #ffffff;
-}
-
-.social-media-marketing {
-    margin-bottom: 20px;
-    padding: 50px;
-    height: 300px;
-    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
-    background-color: #0072bb;
-    color: #ffffff;
-}
-
-.search-engine-optimization img {
-    max-height: 200px;
-}
-
-.online-reputation-management img {
-    max-height: 200px;
-}
-
-.social-media-marketing img {
-    max-height: 200px;
-}
-
-.search-engine-optimization h2 {
-    margin-bottom: 20px;
-    font-size: 36px;
-}
-
-.online-reputation-management h2 {
-    margin-bottom: 20px;
-    font-size: 36px;
-}
-
-.social-media-marketing h2 {
-    margin-bottom: 20px;
-    font-size: 36px;
-}
-
+/* add padding around footer content */
+/* prevent floating elements on right or left of footer */
+/* set font family to Trebuchet and center footer text */
 .footer {
     padding: 30px;
     clear: both;
@@ -198,6 +289,7 @@ p {
     text-align: center;
 }
 
+/* set footer heading font size to 20px */
 .footer h2 {
     font-size: 20px;
 }
