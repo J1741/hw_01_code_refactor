@@ -1,13 +1,14 @@
 /*********************
 Table of Contents
 
-* 1.0 Reset (cmtd)
-* 2.0 Globals (cmtd)
-* 3.0 Header (cmtd)
-* 4.0 Hero (cmtd)
-* 5.0 Body (cmtd)
-* 6.0 Aside
-* 7.0 Footer
+* 1.0 Reset (commented, no consolidation)
+* 2.0 Globals (commented, no consolidation)
+* 3.0 Header (commented, no consolidation)
+* 4.0 Hero (commented, no consolidation)
+* 5.0 Body (commented, TO-BE consolidated)
+* 6.0 Aside (commented, TO-BE consolidated)
+* 7.0 Footer (commented, TO-BE consolidated)
+
 ********************/
 
 /*****************/
@@ -129,7 +130,9 @@ body {
     margin-left: 20px;
 }
 
+/* CONSOLIDATE */
 /* add space around section */
+/* set section height to 300px */
 /* set section font family to Gill Sans */
 /* set section background color to dark blue and text to white*/
 .search-engine-optimization {
@@ -141,7 +144,9 @@ body {
     color: #ffffff;
 }
 
+/* CONSOLIDATE */
 /* add space around section*/
+/* set section height to 300px */
 /* set section font family to Gill Sans */
 /* set section background color to dark blue and text to white*/
 .online-reputation-management {
@@ -153,7 +158,9 @@ body {
     color: #ffffff;
 }
 
+/* CONSOLIDATE */
 /* add space around section*/
+/* set section height to 300px */
 /* set section font family to Gill Sans */
 /* set section background color to dark blue and text to white*/
 .social-media-marketing {
@@ -165,33 +172,39 @@ body {
     color: #ffffff;
 }
 
+/* CONSOLIDATE */
 /* set max height on image to 200px */
 .search-engine-optimization img {
     max-height: 200px;
 }
 
+/* CONSOLIDATE */
 /* set max height on image to 200px */
 .online-reputation-management img {
     max-height: 200px;
 }
 
+/* CONSOLIDATE */
 /* set max height on image to 200px */
 .social-media-marketing img {
     max-height: 200px;
 }
 
+/* CONSOLIDATE */
 /* add margin below section heading and set font size to 36px */
 .search-engine-optimization h2 {
     margin-bottom: 20px;
     font-size: 36px;
 }
 
+/* CONSOLIDATE */
 /* add margin below section heading and set font size to 36px */
 .online-reputation-management h2 {
     margin-bottom: 20px;
     font-size: 36px;
 }
 
+/* CONSOLIDATE */
 /* add margin below section heading and set font size to 36px */
 .social-media-marketing h2 {
     margin-bottom: 20px;
@@ -218,42 +231,49 @@ body {
     background-color: #2589bd;
 }
 
+/* CONSOLIDATE */
 /* add margin below section and set font color to white */
 .benefit-lead {
     margin-bottom: 32px;
     color: #ffffff;
 }
 
+/* CONSOLIDATE */
 /* add margin below section and set font color to white */
 .benefit-brand {
     margin-bottom: 32px;
     color: #ffffff;
 }
 
+/* CONSOLIDATE */
 /* add margin below section and set font color to white */
 .benefit-cost {
     margin-bottom: 32px;
     color: #ffffff;
 }
 
+/* CONSOLIDATE */
 /* add margin below section heading and center heading text */
 .benefit-lead h3 {
     margin-bottom: 10px;
     text-align: center;
 }
 
+/* CONSOLIDATE */
 /* add margin below section heading and center heading text */
 .benefit-brand h3 {
     margin-bottom: 10px;
     text-align: center;
 }
 
+/* CONSOLIDATE */
 /* add margin below section heading and center heading text */
 .benefit-cost h3 {
     margin-bottom: 10px;
     text-align: center;
 }
 
+/* CONSOLIDATE */
 /* set img to display block, add margin, and set max-width to 150px */
 .benefit-lead img {
     display: block;
@@ -261,6 +281,7 @@ body {
     max-width: 150px;
 }
 
+/* CONSOLIDATE */
 /* set img to display block, add margin, and set max-width to 150px */
 .benefit-brand img {
     display: block;
@@ -268,6 +289,7 @@ body {
     max-width: 150px;
 }
 
+/* CONSOLIDATE */
 /* set img to display block, add margin, and set max-width to 150px */
 .benefit-cost img {
     display: block;
