@@ -204,17 +204,18 @@ body {
 /*** 7.0 Footer ***/
 /******************/
 
+/* COMMENTED OUT footer styles since no footer in mockup */
 /* add padding around footer content */
 /* prevent floating elements on right or left of footer */
 /* set font family to Trebuchet and center footer text */
-.footer {
+/* .footer {
     padding: 30px;
     clear: both;
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
     text-align: center;
-}
+} */
 
 /* set footer heading font size to 20px */
-.footer h2 {
+/* .footer h2 {
     font-size: 20px;
-}
+} */
