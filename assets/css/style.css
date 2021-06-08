@@ -5,9 +5,9 @@ Table of Contents
 * 2.0 Globals (commented, no consolidation)
 * 3.0 Header (commented, no consolidation)
 * 4.0 Hero (commented, no consolidation)
-* 5.0 Body (commented, TO-BE consolidated)
+* 5.0 Body (commented, CONSOLIDATED)
 * 6.0 Aside (commented, TO-BE consolidated)
-* 7.0 Footer (commented, TO-BE consolidated)
+* 7.0 Footer (commented, no consolidation)
 
 ********************/
 
@@ -130,26 +130,12 @@ body {
     margin-left: 20px;
 }
 
-/* CONSOLIDATE */
-/* add space around section */
-/* set section height to 300px */
-/* set section font family to Gill Sans */
-/* set section background color to dark blue and text to white*/
-.search-engine-optimization {
-    margin-bottom: 20px;
-    padding: 50px;
-    height: 300px;
-    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
-    background-color: #0072bb;
-    color: #ffffff;
-}
-
-/* CONSOLIDATE */
+/* CONSOLIDATED style: main-section */
 /* add space around section*/
 /* set section height to 300px */
 /* set section font family to Gill Sans */
 /* set section background color to dark blue and text to white*/
-.online-reputation-management {
+.main-section {
     margin-bottom: 20px;
     padding: 50px;
     height: 300px;
@@ -158,55 +144,15 @@ body {
     color: #ffffff;
 }
 
-/* CONSOLIDATE */
-/* add space around section*/
-/* set section height to 300px */
-/* set section font family to Gill Sans */
-/* set section background color to dark blue and text to white*/
-.social-media-marketing {
-    margin-bottom: 20px;
-    padding: 50px;
-    height: 300px;
-    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
-    background-color: #0072bb;
-    color: #ffffff;
-}
-
-/* CONSOLIDATE */
+/* CONSOLIDATED STYLE: .main-section img */
 /* set max height on image to 200px */
-.search-engine-optimization img {
+.main-section img {
     max-height: 200px;
 }
 
-/* CONSOLIDATE */
-/* set max height on image to 200px */
-.online-reputation-management img {
-    max-height: 200px;
-}
-
-/* CONSOLIDATE */
-/* set max height on image to 200px */
-.social-media-marketing img {
-    max-height: 200px;
-}
-
-/* CONSOLIDATE */
+/* CONSOLIDATED STYLE: .main-section h2 */
 /* add margin below section heading and set font size to 36px */
-.search-engine-optimization h2 {
-    margin-bottom: 20px;
-    font-size: 36px;
-}
-
-/* CONSOLIDATE */
-/* add margin below section heading and set font size to 36px */
-.online-reputation-management h2 {
-    margin-bottom: 20px;
-    font-size: 36px;
-}
-
-/* CONSOLIDATE */
-/* add margin below section heading and set font size to 36px */
-.social-media-marketing h2 {
+.main-section h2 {
     margin-bottom: 20px;
     font-size: 36px;
 }
@@ -231,6 +177,8 @@ body {
     background-color: #2589bd;
 }
 
+/* ---------------------------- */
+
 /* CONSOLIDATE */
 /* add margin below section and set font color to white */
 .benefit-lead {
@@ -252,6 +200,8 @@ body {
     color: #ffffff;
 }
 
+/* ---------------------------- */
+
 /* CONSOLIDATE */
 /* add margin below section heading and center heading text */
 .benefit-lead h3 {
@@ -272,6 +222,8 @@ body {
     margin-bottom: 10px;
     text-align: center;
 }
+
+/* ---------------------------- */
 
 /* CONSOLIDATE */
 /* set img to display block, add margin, and set max-width to 150px */
