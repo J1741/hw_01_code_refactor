@@ -15,13 +15,13 @@ GIVEN a webpage meets accessibility standards
 - THEN I find semantic HTML elements (DONE)
 
 2. WHEN I view the structure of the HTML elements
-- THEN I find that the elements follow a logical structure independent of styling and positioning
+- THEN I find that the elements follow a logical structure independent of styling and positioning (DONE)
 
 3. WHEN I view the image elements
 - THEN I find accessible alt attributes (DONE)
 
 4. WHEN I view the heading attributes
-- THEN they fall in sequential order
+- THEN they fall in sequential order (DONE)
 
 5. WHEN I view the title element
 - THEN I find a concise, descriptive title (DONE)
@@ -32,7 +32,7 @@ GIVEN a webpage meets accessibility standards
 7. WHEN I view the source code
 - THEN all CSS selectors and properties
   -- are consolidated (DONE)
-  -- and follow a semantic structure (IN-PROGRESS)
+  -- and follow a semantic structure (DONE)
 
 8. WHEN I view the source code
 - THEN the CSS file is properly commented (DONE)
@@ -59,17 +59,22 @@ GIVEN a webpage meets accessibility standards
         </nav>
     </header>
     <!-- CHANGED div to figure -->
-    <figure class="hero"></figure>
+    <!-- ADDED section tags around hero image -->
+    <section>
+        <figure class="hero"></figure>
+    </section>
     <!-- CHANGED div to main -->
     <main class="content">
         <!-- CHANGED div to section -->
         <!-- CHANGED section class from search-engine-optimization to main-section -->
         <section id="search-engine-optimization" class="main-section">
+            <!-- MOVED h2 element above figure -->
+            <!-- ADDED class heading-adjust-1 to control h2 margin -->
+            <h2 class="heading-adjust-1">Search Engine Optimization</h2>
             <!-- ADDED figure tags around img -->
             <figure>
                 <img src="./assets/images/search-engine-optimization.jpg" class="float-left" alt="A wooden table with a laptop, magnifying glass, pens, notebook, and cup of coffee."/>
             </figure>
-            <h2>Search Engine Optimization</h2>
             <p>
                 The dominance of mobile internet use means that users are searching for the right business as they travel, shop, or sit on their couch at home. Search Engine Optimization (SEO) allows you to increase your visibility and find the right customers for your business.
             </p>
@@ -77,11 +82,12 @@ GIVEN a webpage meets accessibility standards
         <!-- CHANGED div to section -->
         <!-- CHANGED section class from online-reputation-management to main-section -->
         <section id="online-reputation-management" class="main-section">
+            <!-- MOVED h2 element above figure -->
+            <h2>Online Reputation Management</h2>
             <!-- ADDED figure tags around img -->            
             <figure>
                 <img src="./assets/images/online-reputation-management.jpg" class="float-right" alt="A person working at a laptop with a mobile phone, coffee mug, and tablet."/>
             </figure>
-            <h2>Online Reputation Management</h2>
             <p>
                 The web is full of opinions, and some of these can be negative. Social media allows anyone with an internet connection to say whatever they want about your business. Online Reputation Management gives you the control over what potential customers see when they search for your business.
             </p>
@@ -89,11 +95,13 @@ GIVEN a webpage meets accessibility standards
         <!-- CHANGED div to section -->
         <!-- CHANGED section class from social-media-marketing to main-section -->
         <section id="social-media-marketing" class="main-section">
+            <!-- MOVED h2 element above figure -->
+            <!-- ADDED class heading-adjust-2 to control h2 margin -->
+            <h2 class="heading-adjust-2">Social Media Marketing</h2>
             <!-- ADDED figure tags around img -->
             <figure>
                 <img src="./assets/images/social-media-marketing.jpg" class="float-left" alt="Several people working at a wooden conference table with colorful signs, tablets, a laptop, and cups of coffee."/>
             </figure>
-            <h2>Social Media Marketing</h2>
             <p>
                 Social media continues to have a sizable influence on buying habits. Social media marketing helps you determine which platforms are suited to your brand, using analytics to find the right markets and increase your lead generation.
             </p>
@@ -139,15 +147,7 @@ GIVEN a webpage meets accessibility standards
             </p>
         </section>
     </aside>
-    <!-- CHANGED div to footer-->
-    <!-- TBD: move footer above aside? (so that headings are in sequential order?) -->
-    <!-- COMMENTED OUT footer since it's not in mockup -->
-    <!-- <footer class="footer">
-        <h2>Made with ❤️️ by Horiseon</h2>
-        <p>
-            &copy; 2019 Horiseon Social Solution Services, Inc.
-        </p>
-    </footer> -->
+    <!-- DELETED footer as it was not in mockup -->
 </body>
 
 </html>

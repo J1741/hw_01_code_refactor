@@ -1,13 +1,12 @@
 /*********************
 Table of Contents
 
-* 1.0 Reset (commented, no consolidation)
-* 2.0 Globals (commented, no consolidation)
-* 3.0 Header (commented, no consolidation)
-* 4.0 Hero (commented, no consolidation)
+* 1.0 Reset (commented, consolidation N/A)
+* 2.0 Globals (commented, consolidation N/A)
+* 3.0 Header (commented, consolidation N/A)
+* 4.0 Hero (commented, consolidation N/A)
 * 5.0 Body (commented, CONSOLIDATED)
-* 6.0 Aside (commented, TO-BE consolidated)
-* 7.0 Footer (commented, no consolidation)
+* 6.0 Aside (commented, CONSOLIDATED)
 
 ********************/
 
@@ -110,16 +109,20 @@ body {
     background-color: #d9dcd6;
 }
 
+/* ADDING negative top margin to position photo inline with text */
 /* put seo and social media marketing images on left of figures */
 .float-left {
     float: left;
     margin-right: 25px;
+    margin-top: -60px;
 }
 
+/* ADDING negative top margin to position photo inline with text */
 /* put reputation management image on right side of figure */
 .float-right {
     float: right;
     margin-left: 25px;
+    margin-top: -60px;
 }
 
 /* make main section take up 75% of page width */
@@ -155,6 +158,16 @@ body {
 .main-section h2 {
     margin-bottom: 20px;
     font-size: 36px;
+}
+
+/* ADDING class heading-adjust-1 */
+.heading-adjust-1 {
+    margin-left: 325px;
+}
+
+/* ADDING class heading-adjust-2 */
+.heading-adjust-2 {
+    margin-left: 315px;
 }
 
 /*****************/
@@ -200,22 +213,4 @@ body {
     max-width: 150px;
 }
 
-/******************/
-/*** 7.0 Footer ***/
-/******************/
-
-/* COMMENTED OUT footer styles since no footer in mockup */
-/* add padding around footer content */
-/* prevent floating elements on right or left of footer */
-/* set font family to Trebuchet and center footer text */
-/* .footer {
-    padding: 30px;
-    clear: both;
-    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
-    text-align: center;
-} */
-
-/* set footer heading font size to 20px */
-/* .footer h2 {
-    font-size: 20px;
-} */
+/* DELETED .footer class styles as footer was not in mockup */
